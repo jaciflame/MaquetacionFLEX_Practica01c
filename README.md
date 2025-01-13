@@ -35,4 +35,4 @@ Este proyecto está en la versión 1.0.0.
 Este proyecto no está bajo ninguna licencia
 
 ## Recursos Adicionales
-- [Repositorio en GitHub]()
+- [Repositorio en GitHub](https://github.com/jaciflame/MaquetacionFLEX_Practica01c)
