@@ -1,0 +1,145 @@
+/* Jacinto Collado Alvarez */
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column; /* Asegura que el header y footer estén en vertical */
+    min-height: 100vh;
+  }
+  
+  header, footer {
+    background-color: #0f0f1a; /* Darker background with a touch of purple */
+    color: #00f9ff; /* Neon light blue */
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 255, 255, 0.2); /* Neon glow effect */
+  }
+  
+  .contenedor {
+    display: flex;
+    background: linear-gradient(135deg, #1c1c2c, #262642); /* Dark background with gradient */
+    padding: 20px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    background: #12121d; /* Deep dark theme */
+    color: #fff; /* White text */
+  }
+  
+  aside {
+    width: 20%;
+    background-color: #181820; /* Slightly lighter dark background */
+    padding: 1rem;
+    border-right: 2px solid #00f9ff; /* Neon blue border */
+  }
+  
+  aside nav p {
+    margin-bottom: 0.5rem;
+    color: #f1f1f1; /* Light text for nav items */
+  }
+  
+  aside a {
+    text-decoration: none;
+    color: #00f9ff; /* Neon link color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  aside a:hover {
+    color: #ff4fd4; /* Neon pink on hover */
+  }
+  
+  section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #10101b; /* Dark background for the content */
+  }
+  
+  #primero {
+    width: 30%;
+    height: 40vh;
+    border: 2px solid #ff1ec8; /* Neon pink border */
+  }
+  
+  article {
+    max-width: 45%;
+    height: 60vh;
+    background-color: #2a2a3c; /* Dark background with a hint of purple */
+    border: 2px solid #ff1ec8; /* Neon pink border */
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 6px 12px rgba(255, 0, 255, 0.2); /* Glowing effect */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  article:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(255, 0, 255, 0.3); /* Stronger glow on hover */
+  }
+  
+  .box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .box h2 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    color: #ff00f5; /* Neon pink heading */
+  }
+  
+  .box p {
+    font-size: 1rem;
+    color: #b3b3b3; /* Slightly dimmed text */
+  }
+  
+  footer address ul {
+    list-style: none;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    background: linear-gradient(135deg, #171720, #222233); /* Dark gradient background */
+  }
+  
+  .iconos {
+    font-size: 2.5rem;
+    color: #00f9ff; /* Neon blue icons */
+    transition: color 0.3s ease;
+  }
+  
+  .iconos:hover {
+    color: #ff4fd4; /* Neon pink on hover */
+  }
+  
